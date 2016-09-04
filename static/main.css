@@ -1,0 +1,138 @@
+*{
+	color:#93673a;
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+}
+
+header, footer {
+	background: #3A6693;
+	padding: 1em;
+	margin-bottom: 20px;
+}
+
+body {
+	font: 13px Helvetica, Arial;
+}
+
+form button {
+	font-weight: bold;
+ 	color: #FFF;
+	width: 9%;
+	background: #3A6693;
+	border: none;
+	padding: 12px;
+}
+
+form button:HOVER {
+	-webkit-transform: scale(1.05);
+}
+
+#sideBlock {
+	width: 10%;
+	border: 3px solid #3A6693;
+	padding: 10px;
+	text-align: center;
+	min-height: 100%;
+	position: fixed;
+	margin-left: 90%;
+	
+}
+
+#chatWrap {
+	float: left;
+	width: 90%;
+	overflow: auto;
+	height: 660px;
+}
+
+#contentWrap {
+	width:100;
+	display: none;
+	overflow: auto;
+}
+
+#messageForm {
+	background: #000;
+	padding: 1px;
+	position: fixed;
+	bottom: 0;
+	width: 100%;
+	width: 90%
+}
+
+#messageForm input {
+	font-size: 16px;
+	border: 2px solid #93673a;
+	padding: 12px;
+	width: 90%;
+	margin-right: .3%;
+}
+
+#messages {
+	height: 660px;
+	float: top;
+	overflow: scroll;
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+#messages li {
+	padding: 5px 10px;
+}
+
+#messages li:nth-child(odd) {
+	background: #eee;
+}
+
+.err {
+	color: #933b3a;
+}
+
+.whisper {
+	color: #933a66;
+	font-style: italic;
+}
+
+.timeStamp{
+	float: right;
+	font-size: 9px;
+}
+
+#petNameWrap {
+	margin: auto;
+	width: 50%;
+	border-radius: 15px;
+	text-align: center;
+}
+
+#petNameWrap button {
+	font-weight: bold;
+	padding: 5px 15px;
+	width: 262px;
+	margin: auto;
+}
+
+#setUser input {
+	text-overflow:ellipsis;
+	text-align: center;
+	padding: 10px;
+	width: 50%;
+	margin-bottom: 15px;
+	
+	-webkit-box-shadow: 0px 0px 8px #3A6693; 
+	-webkit-border-radius: 12px;
+	border-radius: 7px;
+	
+}
+
+#welcomeText{
+	color: #FFF;
+}
+
+#userName{
+	font-size: 14px;
+}

@@ -1,0 +1,9 @@
+# ignore mac files
+.DS_Store
+
+# ignore dependencies 
+node_modules
+
+# ignore files
+.tmp
+npm-debug.log
